@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testcase"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="12.777">
+  <properties />
+  
+  
+            <testcase name="wechatloginbtn" time="1.921" classname="Testcase.TestHome" />
+                <testcase name="mybtnclick" time="3.781" classname="Testcase.TestHome" />
+                <testcase name="loginbtn" time="6.399" classname="Testcase.TestHome" />
+                <testcase name="ylogin" time="0.676" classname="Testcase.TestHome" />
+      
+</testsuite>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[点击我的按钮]]>
+    </line>
+    <line>
+      <![CDATA[点击登录按钮，跳转微信登录]]>
+    </line>
+    <line>
+      <![CDATA[跳转到微信登录，点击微信登录]]>
+    </line>
+    <line>
+      <![CDATA[用户登录成功]]>
+    </line>
+    <line>
+      <![CDATA[点击抽奖正常]]>
+    </line>
+    <line>
+      <![CDATA[未抽奖默认选中正常]]>
+    </line>
+    <line>
+      <![CDATA[进入抽奖详情正常]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="31187" started-at="2019-06-18T10:47:16Z" finished-at="2019-06-18T10:47:47Z">
+    <groups>
+    </groups>
+    <test name="testcase" duration-ms="31187" started-at="2019-06-18T10:47:16Z" finished-at="2019-06-18T10:47:47Z">
+      <class name="Testcase.TestHome">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcase.TestHome@5f341870]" name="setUp" is-config="true" duration-ms="18486" started-at="2019-06-18T18:47:16Z" finished-at="2019-06-18T18:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="mybtnclick()[pri:0, instance:Testcase.TestHome@5f341870]" name="mybtnclick" duration-ms="1606" started-at="2019-06-18T18:47:34Z" description="我的" finished-at="2019-06-18T18:47:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[点击我的按钮]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mybtnclick -->
+        <test-method status="PASS" signature="loginbtn()[pri:1, instance:Testcase.TestHome@5f341870]" name="loginbtn" duration-ms="3376" started-at="2019-06-18T18:47:36Z" description="登录" finished-at="2019-06-18T18:47:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[点击登录按钮，跳转微信登录]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginbtn -->
+        <test-method status="PASS" signature="wechatloginbtn()[pri:2, instance:Testcase.TestHome@5f341870]" name="wechatloginbtn" duration-ms="1978" started-at="2019-06-18T18:47:39Z" description="跳转微信登录" finished-at="2019-06-18T18:47:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[跳转到微信登录，点击微信登录]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wechatloginbtn -->
+        <test-method status="PASS" signature="ylogin()[pri:3, instance:Testcase.TestHome@5f341870]" name="ylogin" duration-ms="803" started-at="2019-06-18T18:47:41Z" description="校验用户是否登录成功" finished-at="2019-06-18T18:47:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[用户登录成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ylogin -->
+        <test-method status="PASS" signature="choujiangclick()[pri:4, instance:Testcase.TestHome@5f341870]" name="choujiangclick" duration-ms="839" started-at="2019-06-18T18:47:42Z" description="点击我的抽奖" finished-at="2019-06-18T18:47:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[点击抽奖正常]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- choujiangclick -->
+        <test-method status="PASS" signature="weizhongjiang()[pri:5, instance:Testcase.TestHome@5f341870]" name="weizhongjiang" duration-ms="660" started-at="2019-06-18T18:47:43Z" description="进入我的抽奖页面，默认显示未中奖页面" finished-at="2019-06-18T18:47:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[未抽奖默认选中正常]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- weizhongjiang -->
+        <test-method status="PASS" signature="NozGoodsName()[pri:6, instance:Testcase.TestHome@5f341870]" name="NozGoodsName" duration-ms="3421" started-at="2019-06-18T18:47:43Z" description="点击待开奖箭头，进入抽奖详情页面" finished-at="2019-06-18T18:47:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[进入抽奖详情正常]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NozGoodsName -->
+      </class> <!-- Testcase.TestHome -->
+    </test> <!-- testcase -->
+  </suite> <!-- TestSuite -->
+</testng-results>
