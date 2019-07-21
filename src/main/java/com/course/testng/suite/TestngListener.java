@@ -7,16 +7,12 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.model.TestAttribute;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
-import com.aventstack.extentreports.reporter.configuration.Theme;
-import org.testng.*;
 import org.testng.xml.XmlSuite;
-
+import org.testng.*;
 import java.io.File;
 import java.util.*;
 
-/**
- * Created by chenwx on 17/3/24.
- */
+
 public class TestngListener implements IReporter {
     //生成的路径以及文件名
     private static final String OUTPUT_FOLDER = "test-output/";
@@ -24,7 +20,7 @@ public class TestngListener implements IReporter {
 
     private ExtentReports extent;
 
-    @Override
+
     public void generateReport(List<XmlSuite>  xmlSuites, List<ISuite> suites, String outputDirectory) {
         init();
         boolean createSuiteNode = false;
