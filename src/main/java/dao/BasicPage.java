@@ -1,4 +1,4 @@
-package com.bsb.dao;
+package dao;
 import org.openqa.selenium.support.PageFactory;
 
 /**

@@ -1,20 +1,17 @@
-package com.bsb.dao;
-import com.bsb.dao.Basic;
-import io.appium.java_client.pagefactory.AndroidFindBy;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.internal.FindsById;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
-import io.appium.java_client.AppiumDriver;
+package dao;
 
-import java.util.List;
+import org.openqa.selenium.WebElement;
+
+import org.openqa.selenium.support.FindBy;
+
 
 /**
  * 首页页面功能元素值
  */
-public class HomePage  extends BasicPage {
+public class HomePage extends BasicPage {
+
+
+
 
     /**
      * 元素：我的
@@ -42,9 +39,9 @@ public class HomePage  extends BasicPage {
     // @AndroidFindBy(id = "com.fotron.bsb:id/tv_me_nick_name")
     //@FindBy(id="com.fotron.bsb:id/tv_me_nick_name")
      */
-    public WebElement nickname (){
-        return driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.TextView[@resource-id	='com.fotron.bsb:id/tv_me_nick_name']\n");
-    }
+//    public WebElement nickname (){
+//        return driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.TextView[@resource-id	='com.fotron.bsb:id/tv_me_nick_name']\n");
+//    }
 
     /**
      * 抽奖icon
@@ -65,19 +62,19 @@ public class HomePage  extends BasicPage {
      * @return 是否有中奖信息
      */
 
-    public  WebElement  GoodsName()
-    {
-        return driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView[@resource-id='com.fotron.bsb:id/tvLotteryGoodsName']\n"));
-    }
-
-    /**
-     *
-     * @return 进入抽奖详情页面
-     */
-    public   WebElement choujiangdetail()
-    {
-        return driver.findElementByXPath("(//android.widget.ImageView[@content-desc=\"TODO\"])[1]");
-    }
+//    public  WebElement  GoodsName()
+//    {
+//        return driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView[@resource-id='com.fotron.bsb:id/tvLotteryGoodsName']\n"));
+//    }
+//
+//    /**
+//     *
+//     * @return 进入抽奖详情页面
+//     */
+//    public   WebElement choujiangdetail()
+//    {
+//        return driver.findElementByXPath("(//android.widget.ImageView[@content-desc=\"TODO\"])[1]");
+//    }
 
 
 

@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="TestSuite" verbose="2">
-    <test name="testcase" >
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="com.bsb.test/src/test/java/Testcase.java">
         <classes>
-           <!-- <class name="Testcase.Testapi">
-                <methods >
-                    <include name="adddata" />
-                    <exclude name="dec" />
+            <class name="Testcase">
+                <methods>
+                    <include name="leftswipe"/>
                 </methods>
-            </class>-->
-            <class name="Testcase.TestHome">
-
             </class>
         </classes>
     </test>
-    <listeners>
-        <listener class-name="com.course.testng.suite.TestngListener"/>
-        <listener class-name="com.course.testng.suite.ExtentTestNGIReporterListener"/>
-        <listener class-name="org.uncommons.reportng.HTMLReporter" />
-<!--        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />-->
-    </listeners>
 </suite>
